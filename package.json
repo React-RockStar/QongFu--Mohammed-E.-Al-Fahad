@@ -1,0 +1,48 @@
+{
+  "name": "qongfu-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^3.18.0",
+    "@material-ui/core": "^4.4.0",
+    "@material-ui/icons": "^4.2.1",
+    "@types/google-map-react": "^0.23.12",
+    "aphrodite": "^2.4.0",
+    "font-awesome": "^4.7.0",
+    "formsy-react": "^1.1.5",
+    "framer-motion": "^1.6.7",
+    "google-map-react": "^1.1.4",
+    "lodash": "^4.17.15",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-js-google-maps": "^1.5.2",
+    "react-mui-login-register": "^0.7.3",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-swipeable-views": "^0.13.3",
+    "react-swipeable-views-native": "^0.13.2",
+    "reactstrap": "^8.0.1",
+    "ua-parser-js": "^0.7.20"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+/* CSS about Page1 in OnBoarding */
+.header-text {
+	text-align: center;
+	color: rgb(0, 146, 221);
+	font-size: 46px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	margin-top: 6%;
+}
+
+.img {
+	text-align: center;
+	margin-top: 2%;
+}
+
+.content-text {
+	text-align: center;
+	color: rgb(0,146,221);
+	font-size: 24px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	margin-top: 2%;
+}
+
+.content-text-below {
+	color: rgb(154, 154, 156);
+	text-align: center;
+	font-size: 15px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	margin-top: 1%;
+}
+
+.btn-div {
+	text-align: center;
+	margin-top: 4.5%;
+}
+
+.btn-start {
+	padding: 10px 20px;
+	color: white;
+	font-family: Myriad Pro;
+	font-size: 18px;
+	background-color: rgb(0,146,221);
+	border: 2px solid rgb(0,146,221);
+	border-radius: 25px;
+	outline: none;
+}
+
+.btn-start:hover {
+	text-decoration: none;
+	background-color: rgb(0,155,235);
+}
+
+/* CSS about Page2 in OnBoarding */
+.header-sign {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.process {
+	width: 40px;
+    padding: 6px 0;
+	font-size: 25px;
+	color: black;
+	border-radius: 100%;
+	border: 1px solid black;
+}
+
+.process-active {
+	color: rgb(0,146,221);
+	border: 1px solid rgb(0,146,221);
+}
+
+ .line {
+ 	border-bottom: 1px solid gray;
+ 	width: 32px;
+ 	height: 1px; 
+ }
+
+.content-text-page2 {
+	text-align: center;
+	color: rgb(0,146,221);
+	font-size: 24px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	margin-top: 2%;
+}
+
+.content-text-below-page2 {
+	color: rgb(154, 154, 156);
+	text-align: center;
+	font-size: 13px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	margin-top: 1%;
+}
+
+.input-field {
+	margin-top: 2%;
+}
+
+.input-name {
+	background-color: white;
+	width: fit-content;
+	border: 1px solid rgb(217, 218, 221);
+	border-radius: 30px;
+	padding: 5px 7px;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+
+.input-name label {
+	width: 30%;
+	font-size: 10px;
+	color: rgb(0,146,221);
+	margin: 0 15px;
+}
+
+.input-name input {
+	width: 90%;
+	border: none;
+	margin: 0 12px;
+}
+
+.error {
+	color: red;
+	text-align: center;
+	font-size: 13px;
+	padding-right: 107px;
+}
+.button-group {
+	text-align: center;
+	margin-top: 11%;
+}
+.btn {
+	border: 1px solid rgb(0 ,146, 221);
+    background-color: rgb(247, 248 ,252);
+    color: rgb(0, 146, 221);
+    border-radius: 22px;
+    font-size: 17px;
+	font-family: Myriad Pro;
+	outline: none;
+}
+
+.btn-next {
+    padding: 12px 50px;
+}
+
+.btn-skip {
+    background-color: rgb(247, 252 ,254);
+    color: rgb(202, 202, 202);
+    border: none;
+    outline: none;
+    font-size: 13px;
+    margin-top: 2%;
+}
+
+/* CSS about Page3 in OnBoarding */
+
+.avatar-select {
+	margin-top: 1%;
+	justify-content: center;
+	display: flex;
+}
+.avatar-select div {
+	padding: 0 63px;
+}
+.select-option {
+	color: rgb(0, 146, 221);
+}
+
+.button-group1 {
+	text-align: center;
+	margin-top: 7.5%;
+}
+
+.btn-upload {
+    padding: 12px 50px;
+}
+
+/* CSS about Page4 in OnBoarding */
+
+
+
+.header-sign1 {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.content-div {
+	margin-top: 2%;
+}
+
+.content-box {
+	text-align: center;
+	margin: 0 auto;
+	width: fit-content;
+	border: 1px dashed rgb(202, 202, 202);
+	padding: 40px 80px;
+	color: rgb(202, 202, 202);
+	background-color: rgb(242, 243, 247);
+	border-radius: 10px;
+}
+
+.input-div {
+	background-color: white;
+	padding: 10px 8px 12px 8px;
+	width: fit-content;
+	border: 1px solid black;
+	border-radius: 23px;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+.input-form input {
+	width: 270px;
+	border: none;
+	padding: 4px;
+}
+.input-form i {
+	color: rgb(204, 204, 204);
+	font-size: 20px;
+}
+
+/*.container-div {
+	width: 35%;
+	margin: 0 auto;
+}*/
+
+.suggest-div {
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.suggest div{
+	background-color: white;
+	border: 1px solid rgb(112, 112, 112);
+	padding: 6px 12px;
+	width: fit-content;
+	border-radius: 22px;
+}
+
+.suggest-div .suggest-title {
+	margin-top: 10%;
+}
+
+.suggest-div .list1 {
+	display: flex;
+}
+
+.suggest-div .list2 {
+	display: flex;
+}
+
+.suggest div {
+	margin: 5px;
+}
+
+.button-group2 {
+	margin-top: 4%;
+	text-align: center;
+}
+
+.addstyle {
+	padding: 10px 35px;
+}
+
+.full-container div {
+  font-family: Arial;
+  text-align: center;
+  color: rgb(0, 146, 221);
+}
+
+.top-text {
+  margin-top: 10vh;
+  font-size: 46px;
+}
+
+.done-icon {
+  margin: 2vh 0;
+}
+
+.middle-text {
+  font-size: 24px;
+}
+
+.bottom-text {
+  margin-top: 8vh;
+  font-size: 14px;
+  color: rgb(171, 171, 171);
+}
+
+.btn-done {
+  margin-top: 10vh;
+  background-color: rgb(0, 146, 221);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 46px;
+}
+
+@media screen and (max-width: 768px) {
+  .done-icon {
+    width: 40%;
+  }
+}

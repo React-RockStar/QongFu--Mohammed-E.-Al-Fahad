@@ -1,0 +1,26 @@
+
+.test{
+    display: none;
+}
+#MobileTopBar{
+    display:none;
+}
+@media screen and (max-width: 1024px) {
+
+    #topmenu{
+        display:none;
+    }
+    #MobileTopBar{
+        display:block;
+    }
+    #TopBar{
+        display:none;
+    }
+    #slidepart{
+        top:13%;
+
+    }
+    #slidecontent{
+        width:80%;
+    }
+  }

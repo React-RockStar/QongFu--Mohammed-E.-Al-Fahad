@@ -1,0 +1,35 @@
+
+.test{
+    display: none;
+}
+
+ #abc{
+     display:none;
+ }
+#mobiletopbar{
+    display:none;
+}
+@media screen and (max-width: 768px) {
+    .makeStyles-heroButtons-3 {
+      display:none;
+    }
+
+    .test{
+        display: block;
+    }
+    .makeStyles-topButtons-4{
+        display: none;
+    }
+    #abc{
+        display:block;
+    }
+    #topmenu{
+        display:none;
+    }
+    #mobiletopbar{
+        display:block;
+    }
+    #grid{
+        margin-top:0px;
+    }
+  }

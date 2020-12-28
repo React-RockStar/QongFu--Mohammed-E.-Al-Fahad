@@ -1,0 +1,30 @@
+
+.test{
+    display: none;
+}
+#navcard{
+    display:none;
+}
+
+#MobileTopbar{
+    display:none;
+}
+@media screen and (max-width: 1024px) {
+
+    #topmenu{
+        display:none;
+    }
+    #MobileTopbar{
+        display:block;
+    }
+    #Topbar{
+        display:none;
+    }
+    #slidepart{
+        top:13%;
+
+    }
+    #slidecontent{
+        width:80%;
+    }
+  }

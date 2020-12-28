@@ -1,0 +1,125 @@
+.marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 55px;
+  border: 2px solid #0092dd;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  background-color:white;
+  border-radius:25px;
+}
+
+.marker:after {
+  content: "";
+  border: 14px solid transparent;
+  border-top: 27px solid #0092dd;
+  position: absolute;
+  left: 50%;
+  margin-left: -87px;
+  bottom: -41px;
+}
+
+
+.marker1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 55px;
+  border: 2px solid #54b948;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  background-color:white;
+  border-radius:25px;
+}
+
+.marker1:after {
+  content: "";
+  border: 14px solid transparent;
+  border-top: 27px solid #54b948;
+  position: absolute;
+  left: 50%;
+  margin-left: -87px;
+  bottom: -41px;
+}
+
+
+.image{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  border: 2px solid #0092dd;
+  display: inline-block;
+}
+
+
+
+.title{
+  color:#0092dd;
+  font-size: 13px;
+}
+
+.status{
+  color: #7fca76;
+  font-size:10px;
+}
+
+.time{
+  color:#acacac;
+  font-size: 10px;
+}
+.content{
+  line-height: 1;
+}
+
+
+.smallmarker1{
+  background-image: url('./icon/1.png');
+  width:20px;
+  height: 33px;
+  background-repeat: no-repeat;
+}
+
+.smallmarker1{
+  background-image: url('./icon/1.png');
+  width:20px;
+  height: 33px;
+  background-repeat: no-repeat;
+}
+.smallmarker2{
+  background-image: url('./icon/2.png');
+  width:20px;
+  height: 33px;
+  background-repeat: no-repeat;
+}
+
+.smallmarker3{
+  background-image: url('./icon/3.png');
+  width:20px;
+  height: 33px;
+  background-repeat: no-repeat;
+}
+
+.smallmarker4{
+  background-image: url('./icon/4.png');
+  width:20px;
+  height: 33px;
+  background-repeat: no-repeat;
+}
+
+.smallmarker5{
+  background-image: url('./icon/5.png');
+  width:20px;
+  height: 33px;
+  background-repeat: no-repeat;
+}
+
+.smallmarker6{
+  background-image: url('./icon/6.png');
+  width:20px;
+  height: 33px;
+  background-repeat: no-repeat;
+}
+
